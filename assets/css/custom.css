@@ -1,1 +1,10 @@
-/* Add your custom styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Montserrat" !important;
+}
+h1{
+    font-weight: 900 !important;
+}
+h4{
+    font-weight: 500 !important;  
+}
