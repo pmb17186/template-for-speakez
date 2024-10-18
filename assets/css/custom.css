@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     font-family: "Montserrat", sans-serif !important;
     background-color: #d1d2d8 ; 
@@ -7,12 +7,27 @@ body{
     width: 100%;
 }
 h1, h2, h3{
+    color: #5382dd !important;
+}
+h1, h2, h3, h4{
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 800 !important;
     letter-spacing: -3px;
-    color: #5382dd !important;
 }
-h4{
-    font-weight: 500 !important;  
+.team{
+    background-color: #242424;
+}
+.assignments{
+    background-color: #5382dd;
+    color: #242424;
+}
+.team-name{
+    font-size: xx-large;
+    color: #d1d2d8 !important;
+}
+.project-name{
+    font-size: xx-large;
+    color: #d1d2d8 !important;
+    text-align: center;
 }
