@@ -3,6 +3,9 @@ body{
     font-family: "Montserrat", sans-serif !important;
     background-color: #d1d2d8 ; 
 }
+.hero-img{
+    border-radius: 50%;
+}
 .logo{
     width: 100%;
 }
