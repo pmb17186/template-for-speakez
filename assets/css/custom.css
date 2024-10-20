@@ -122,3 +122,12 @@ h4{
 .custom-link:hover {
     color: #5382dd; /* Change the text color on hover if desired */
 }
+
+.text-left {
+    text-align: left;
+}
+
+.container {
+    padding-left: 0; /* Adjust if you want no padding on the left */
+    padding-right: 0; /* Adjust if you want no padding on the right */
+}
