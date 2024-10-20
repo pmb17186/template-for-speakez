@@ -74,27 +74,39 @@ h4{
 
 }
 
-/* Ensure all cards are the same size */
+
 #logos .card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%; /* Full height for consistency */
+    height: 100%; 
   }
   
-  /* Ensure all images are the same size */
+
  #logos .card-img-top {
-    width: 100%; /* Image takes up the full card width */
-    height: 200px; /* Set a fixed height for images */
+    width: 100%; 
+    height: 200px; 
     object-fit: contain; 
     background-color: #f8f9fa;
   }
   
-  /* Align text to sit nicely with images */
+  
  #logos .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Align text toward the bottom */
-    text-align: center; /* Center-align the text under the image */
+    justify-content: flex-end; 
+    text-align: center; 
     padding: 15px;
   }
+
+  #inspiration .row, .text-secondary, .fs-xl-10{
+    display: flex;
+    justify-content: center;
+  }
+
+  #inspiration .col-lg-6{
+    max-width: 600px; 
+    text-align: center; 
+    margin: 0 auto;
+  }
+
