@@ -115,12 +115,12 @@ h4{
  }
 
  .custom-link {
-    text-decoration-color: #5382dd; /* Change 'blue' to your desired color */
-    color: inherit; /* Keeps the original text color */
+    text-decoration-color: #5382dd; 
+    color: inherit; 
 }
 
 .custom-link:hover {
-    color: #5382dd; /* Change the text color on hover if desired */
+    color: #5382dd; 
 }
 
 .text-left {
@@ -128,6 +128,6 @@ h4{
 }
 
 .container {
-    padding-left: 0; /* Adjust if you want no padding on the left */
-    padding-right: 0; /* Adjust if you want no padding on the right */
+    padding-left: 0; 
+    padding-right: 0; 
 }
