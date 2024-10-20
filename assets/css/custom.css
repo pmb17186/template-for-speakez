@@ -9,30 +9,36 @@ body{
 .logo{
     width: 100%;
 }
-h1, h2, h3{
+h3{
     color: #5382dd !important;
 }
 h1, h2, h3, h4{
-    font-optical-sizing: auto;
-    font-style: normal;
     font-weight: 800 !important;
     letter-spacing: -3px;
 }
+.details{
+    font-size: x-large !important;
+    font-weight: 500 !important;
+}
 .team{
     background-color: #242424;
-}
-.assignments{
-    background-color: #5382dd;
-    color: #242424;
 }
 .team-name{
     font-size: xx-large;
     color: #d1d2d8 !important;
 }
+.team-role{
+    color: #d1d2d8;
+}
+.assignments{
+    background-color: #5382dd;
+    color: #242424;
+}
 .project-name{
     font-size: xx-large;
     color: #d1d2d8 !important;
     text-align: center;
+}
 }
 h4{
     font-weight: 500 !important;  
