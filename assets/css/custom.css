@@ -46,10 +46,30 @@ h4{
 
 #categories .service-card{
     background-color: #242424;
+    width: 100%; 
+    min-height: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#categories .service-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+  }
+
+ #categories .service-card img {
+    width: 200px; /* Fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 180px; /* Optional to control max height */
+  }
 
 #categories .service-card h4{
     color: #d1d2d8;
     font-family: "Montserrat", sans-serif !important;
     letter-spacing: -1px;
+
 }
