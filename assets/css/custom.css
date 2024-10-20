@@ -113,3 +113,12 @@ h4{
  .inspiration-text{
     color:#242424;
  }
+
+ .custom-link {
+    text-decoration-color: #5382dd; /* Change 'blue' to your desired color */
+    color: inherit; /* Keeps the original text color */
+}
+
+.custom-link:hover {
+    color: #5382dd; /* Change the text color on hover if desired */
+}
