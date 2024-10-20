@@ -62,9 +62,9 @@ h4{
   }
 
  #categories .service-card img {
-    width: 200px; /* Fixed width for images */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 180px; /* Optional to control max height */
+    width: 200px; 
+    height: auto; 
+    max-height: 180px; 
   }
 
 #categories .service-card h4{
@@ -73,3 +73,28 @@ h4{
     letter-spacing: -1px;
 
 }
+
+/* Ensure all cards are the same size */
+#logos .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Full height for consistency */
+  }
+  
+  /* Ensure all images are the same size */
+ #logos .card-img-top {
+    width: 100%; /* Image takes up the full card width */
+    height: 200px; /* Set a fixed height for images */
+    object-fit: contain; 
+    background-color: #f8f9fa;
+  }
+  
+  /* Align text to sit nicely with images */
+ #logos .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align text toward the bottom */
+    text-align: center; /* Center-align the text under the image */
+    padding: 15px;
+  }
