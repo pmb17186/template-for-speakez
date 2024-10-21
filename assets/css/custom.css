@@ -63,3 +63,90 @@ h4{
     font-weight: 500 !important;  
 }
 
+#categories .service-card{
+    background-color: #242424;
+    width: 100%; 
+    min-height: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#categories .service-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+  }
+
+ #categories .service-card img {
+    width: 200px; 
+    height: auto; 
+    max-height: 180px; 
+  }
+
+#categories .service-card h4{
+    color: #d1d2d8;
+    font-family: "Montserrat", sans-serif !important;
+    letter-spacing: -1px;
+
+}
+
+
+#logos .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+  }
+  
+
+ #logos .card-img-top {
+    width: 100%; 
+    height: 200px; 
+    object-fit: contain; 
+    background-color: #f8f9fa;
+  }
+  
+  
+ #logos .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    text-align: center; 
+    padding: 15px;
+  }
+
+  #inspiration .row, .text-secondary, .fs-xl-10{
+    display: flex;
+    justify-content: center;
+  }
+
+  #inspiration .col-lg-6{
+    max-width: 600px; 
+    text-align: center; 
+    margin: 0 auto;
+  }
+
+ .inspiration-text{
+    color:#242424;
+ }
+
+ .custom-link {
+    text-decoration-color: #5382dd; 
+    color: inherit; 
+}
+
+.custom-link:hover {
+    color: #5382dd; 
+}
+
+.text-left {
+    text-align: left;
+}
+
+.container {
+    padding-left: 0; 
+    padding-right: 0; 
+}
