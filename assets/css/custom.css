@@ -3,11 +3,31 @@ body{
     font-family: "Montserrat", sans-serif !important;
     background-color: #d1d2d8 ; 
 }
+a{
+    color: #d1d2d8 !important;
+}
+a.nav-link:hover{
+    color: #5382dd !important;
+    background-color: #d1d2d8;
+}
+.hero-main{
+    height: 100vh; 
+    padding-top: 4rem;
+}
 .hero-img{
     border-radius: 50%;
+    width: 80%;
+    max-width: 100%; 
+    height: auto;
+    margin-top: 40px;
+}
+.hero-text{
+    color: #d1d2d8;
+    padding-left: 10px;
 }
 .logo{
-    width: 100%;
+    width: 90%; 
+    height: auto;
 }
 h3{
     color: #5382dd !important;
@@ -39,7 +59,6 @@ h1, h2, h3, h4{
     color: #d1d2d8 !important;
     text-align: center;
 }
-
 h4{
     font-weight: 500 !important;  
 }
@@ -116,7 +135,7 @@ h4{
 
  .custom-link {
     text-decoration-color: #5382dd; 
-    color: inherit; 
+    color: #5382dd !important; 
 }
 
 .custom-link:hover {
