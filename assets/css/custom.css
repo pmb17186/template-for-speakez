@@ -11,8 +11,8 @@ a.nav-link:hover{
     background-color: #d1d2d8;
 }
 .hero-main{
-    min-height: 100vh; 
-    padding-top: 2rem;
+    height: 100vh; 
+    padding-top: 4rem;
 }
 .hero-img{
     border-radius: 50%;
@@ -135,7 +135,7 @@ h4{
 
  .custom-link {
     text-decoration-color: #5382dd; 
-    color: inherit; 
+    color: #5382dd !important; 
 }
 
 .custom-link:hover {
