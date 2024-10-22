@@ -43,20 +43,19 @@ a.nav-link:hover{
         text-align: center !important;
     }
     .service-card {
-        transform: scale(0.8); /* Further scale down for small mobile devices */
+        transform: scale(0.8); 
       }
-    
-      .service-card .card-body {
-        padding: 0.75rem; /* Reduce padding more for small screens */
-      }
-    
-      .service-card img {
-        max-width: 60%; /* Make images smaller */
-        height: auto;
-      }
-      .service-card h4 {
-        font-size: 1rem; /* Reduce heading font size for small mobile screens */
-      }
+    .service-card .card-body {
+    padding: 0.75rem;
+    }
+
+    .service-card img {
+    max-width: 60%;
+    height: auto;
+    }
+    .service-card h4 {
+    font-size: 1rem; 
+    }
 }
 .logo{
     width: 90%; 
