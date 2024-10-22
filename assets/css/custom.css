@@ -42,6 +42,21 @@ a.nav-link:hover{
     .text-md-end, .text-md-start {
         text-align: center !important;
     }
+    .service-card {
+        transform: scale(0.9); /* Further scale down for small mobile devices */
+      }
+    
+      .service-card .card-body {
+        padding: 0.75rem; /* Reduce padding more for small screens */
+      }
+    
+      .service-card img {
+        max-width: 60%; /* Make images smaller */
+        height: auto;
+      }
+      .service-card h4 {
+        font-size: 1rem; /* Reduce heading font size for small mobile screens */
+      }
 }
 .logo{
     width: 90%; 
@@ -95,7 +110,7 @@ h4{
 #categories .service-card{
     background-color: #242424;
     width: 100%; 
-    min-height: 350px; 
+    height: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
