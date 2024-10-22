@@ -43,7 +43,7 @@ a.nav-link:hover{
         text-align: center !important;
     }
     .service-card {
-        transform: scale(0.9); /* Further scale down for small mobile devices */
+        transform: scale(0.8); /* Further scale down for small mobile devices */
       }
     
       .service-card .card-body {
