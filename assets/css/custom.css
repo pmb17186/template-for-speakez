@@ -6,7 +6,6 @@ body{
     font-family: "Montserrat", sans-serif !important;
     background-color: #d1d2d8 ; 
     font-weight: 400;
-    
 }
 a{
     color: #d1d2d8 !important;
@@ -14,12 +13,6 @@ a{
 a.nav-link:hover{
     color: #5382dd !important;
     background-color: #d1d2d8;
-}
-.bg-holder{
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
 }
 .hero-main{
     height: 100vh; 
@@ -48,6 +41,20 @@ a.nav-link:hover{
     }
     .text-md-end, .text-md-start {
         text-align: center !important;
+    }
+    .service-card {
+        transform: scale(0.8); 
+      }
+    .service-card .card-body {
+    padding: 0.75rem;
+    }
+
+    .service-card img {
+    max-width: 60%;
+    height: auto;
+    }
+    .service-card h4 {
+    font-size: 1rem; 
     }
 }
 .logo{
@@ -99,11 +106,10 @@ h1, h2, h3, h4{
 h4{
     font-weight: 500 !important;  
 }
-
 #categories .service-card{
     background-color: #242424;
     width: 100%; 
-    min-height: 350px; 
+    height: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
